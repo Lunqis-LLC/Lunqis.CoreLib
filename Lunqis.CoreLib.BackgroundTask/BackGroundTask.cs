@@ -1,6 +1,6 @@
 ﻿//MIT License
 
-//Copyright (c) 2022-2025 Azumo Lab
+//Copyright (c) 2025-2025 Lunqis LLC
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
