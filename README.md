@@ -1,6 +1,6 @@
 ﻿# Lunqis.CoreLib
 
-| | [中文](README_CN.md) | |
+| [中文](README_CN.md) |
 
 Lunqis.CoreLib is a .NET Standard 2.1 class library providing a set of core utilities and abstractions for building robust, extensible, and maintainable applications. The library includes:
 
