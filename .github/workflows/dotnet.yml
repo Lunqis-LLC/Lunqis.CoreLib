@@ -27,4 +27,4 @@ jobs:
     - name: 构建NUGET包
       run: dotnet pack --output "out"
     - name: NUGET包发布
-      run: dotnet nuget push "**/*.nuget" --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
+      run: dotnet nuget push "**/*.nupkg" --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
