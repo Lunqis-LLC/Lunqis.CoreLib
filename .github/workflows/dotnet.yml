@@ -28,4 +28,3 @@ jobs:
       run: dotnet pack --output "out"
     - name: NUGET包发布
       run: dotnet nuget push "**/*.nuget" --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
-          
