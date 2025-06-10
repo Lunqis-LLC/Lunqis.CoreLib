@@ -30,7 +30,7 @@ namespace Lunqis.CoreLib.Extensions
     /// </summary>
     /// <typeparam name="K">字典的键类型，必须是非空类型。</typeparam>
     /// <typeparam name="V">字典的值类型，必须是引用类型。</typeparam>
-    internal class BaseDictionary<K, V> : Dictionary<K, V> where K : notnull where V : class
+    public class BaseDictionary<K, V> : Dictionary<K, V> where K : notnull where V : class
     {
         /// <summary>
         /// 添加或更新字典中的键值对。
