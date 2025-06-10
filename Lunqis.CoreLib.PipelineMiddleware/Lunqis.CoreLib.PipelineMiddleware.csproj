@@ -5,6 +5,28 @@
     <Nullable>enable</Nullable>
     <IncrementVersionOnBuild>1.0.yyMM.+</IncrementVersionOnBuild>
     <Version>1.0.2506.9</Version>
+    <PackageId>Lunqis.CoreLib.PipelineMiddleware</PackageId>
+    <Title>Lunqis.CoreLib.PipelineMiddleware</Title>
+    <Authors>Lunqis LLC</Authors>
+    <Company>Lunqis LLC</Company>
+    <Product>Lunqis.CoreLib.PipelineMiddleware</Product>
+    <PackageProjectUrl>https://github.com/Lunqis-LLC/Lunqis.CoreLib</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Lunqis-LLC/Lunqis.CoreLib</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
